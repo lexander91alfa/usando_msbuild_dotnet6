@@ -1,0 +1,6 @@
+<Project>
+    <Target Name="task_alfa">
+        <MakeDir Directories="bin" />
+        <Csc Sources="Program.cs" OutputAssembly="bin/task.exe" />
+    </Target>
+</Project>
